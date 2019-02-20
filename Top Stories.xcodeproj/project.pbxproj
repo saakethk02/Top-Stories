@@ -14,6 +14,7 @@
 		73F62DA2221DC29B001CE753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F62DA0221DC29B001CE753 /* LaunchScreen.storyboard */; };
 		73F62DAD221DC29B001CE753 /* Top_StoriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F62DAC221DC29B001CE753 /* Top_StoriesTests.swift */; };
 		73F62DB8221DC29B001CE753 /* Top_StoriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F62DB7221DC29B001CE753 /* Top_StoriesUITests.swift */; };
+		73F62DC6221DC6B3001CE753 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F62DC5221DC6B3001CE753 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		73F62DB3221DC29B001CE753 /* Top StoriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Top StoriesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73F62DB7221DC29B001CE753 /* Top_StoriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Top_StoriesUITests.swift; sourceTree = "<group>"; };
 		73F62DB9221DC29B001CE753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73F62DC5221DC6B3001CE753 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				73F62D9E221DC29B001CE753 /* Assets.xcassets */,
 				73F62DA0221DC29B001CE753 /* LaunchScreen.storyboard */,
 				73F62DA3221DC29B001CE753 /* Info.plist */,
+				73F62DC5221DC6B3001CE753 /* SwiftyJSON.swift */,
 			);
 			path = "Top Stories";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73F62DC6221DC6B3001CE753 /* SwiftyJSON.swift in Sources */,
 				73F62D9A221DC299001CE753 /* SourcesViewController.swift in Sources */,
 				73F62D98221DC299001CE753 /* AppDelegate.swift in Sources */,
 			);
